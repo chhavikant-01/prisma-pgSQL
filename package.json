@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon script.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,8 @@
     "prisma": "^5.19.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.19.0"
   }
 }
